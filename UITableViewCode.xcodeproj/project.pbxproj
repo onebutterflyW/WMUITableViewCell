@@ -15,6 +15,14 @@
 		A20422311E8F2202006FDAE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A204222F1E8F2202006FDAE6 /* LaunchScreen.storyboard */; };
 		A204223C1E8F2202006FDAE6 /* UITableViewCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A204223B1E8F2202006FDAE6 /* UITableViewCodeTests.m */; };
 		A20422471E8F2202006FDAE6 /* UITableViewCodeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A20422461E8F2202006FDAE6 /* UITableViewCodeUITests.m */; };
+		A20422551E8F2752006FDAE6 /* statuses.plist in Resources */ = {isa = PBXBuildFile; fileRef = A20422541E8F2752006FDAE6 /* statuses.plist */; };
+		A20422581E8F2775006FDAE6 /* NJWeibo.m in Sources */ = {isa = PBXBuildFile; fileRef = A20422571E8F2775006FDAE6 /* NJWeibo.m */; };
+		A204225E1E8F2A6C006FDAE6 /* WMWeiBoFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = A204225D1E8F2A6C006FDAE6 /* WMWeiBoFrame.m */; };
+		A20422611E8F2A9F006FDAE6 /* WMWeiBoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A20422601E8F2A9F006FDAE6 /* WMWeiBoCell.m */; };
+		A20422671E8F899C006FDAE6 /* UseWMWeiBoCellTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A20422661E8F899C006FDAE6 /* UseWMWeiBoCellTVC.m */; };
+		A204226C1E8F9FF5006FDAE6 /* headerAndfooterTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A204226B1E8F9FF5006FDAE6 /* headerAndfooterTVC.m */; };
+		A20422741E8FA528006FDAE6 /* WMContactGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = A20422731E8FA528006FDAE6 /* WMContactGroup.m */; };
+		A20B51411E90C84C002D0621 /* WMContact.m in Sources */ = {isa = PBXBuildFile; fileRef = A20B51401E90C84C002D0621 /* WMContact.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,22 @@
 		A20422421E8F2202006FDAE6 /* UITableViewCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITableViewCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A20422461E8F2202006FDAE6 /* UITableViewCodeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewCodeUITests.m; sourceTree = "<group>"; };
 		A20422481E8F2202006FDAE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A20422541E8F2752006FDAE6 /* statuses.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = statuses.plist; sourceTree = "<group>"; };
+		A20422561E8F2775006FDAE6 /* NJWeibo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJWeibo.h; sourceTree = "<group>"; };
+		A20422571E8F2775006FDAE6 /* NJWeibo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJWeibo.m; sourceTree = "<group>"; };
+		A204225C1E8F2A6C006FDAE6 /* WMWeiBoFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMWeiBoFrame.h; sourceTree = "<group>"; };
+		A204225D1E8F2A6C006FDAE6 /* WMWeiBoFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMWeiBoFrame.m; sourceTree = "<group>"; };
+		A204225F1E8F2A9F006FDAE6 /* WMWeiBoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WMWeiBoCell.h; path = ../WMWeiBoCell.h; sourceTree = "<group>"; };
+		A20422601E8F2A9F006FDAE6 /* WMWeiBoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WMWeiBoCell.m; path = ../WMWeiBoCell.m; sourceTree = "<group>"; };
+		A20422641E8F7216006FDAE6 /* WMPrefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WMPrefix.pch; path = ../WMPrefix.pch; sourceTree = "<group>"; };
+		A20422651E8F899C006FDAE6 /* UseWMWeiBoCellTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UseWMWeiBoCellTVC.h; sourceTree = "<group>"; };
+		A20422661E8F899C006FDAE6 /* UseWMWeiBoCellTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UseWMWeiBoCellTVC.m; sourceTree = "<group>"; };
+		A204226A1E8F9FF5006FDAE6 /* headerAndfooterTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = headerAndfooterTVC.h; sourceTree = "<group>"; };
+		A204226B1E8F9FF5006FDAE6 /* headerAndfooterTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = headerAndfooterTVC.m; sourceTree = "<group>"; };
+		A20422721E8FA528006FDAE6 /* WMContactGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMContactGroup.h; sourceTree = "<group>"; };
+		A20422731E8FA528006FDAE6 /* WMContactGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMContactGroup.m; sourceTree = "<group>"; };
+		A20B513F1E90C84C002D0621 /* WMContact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMContact.h; sourceTree = "<group>"; };
+		A20B51401E90C84C002D0621 /* WMContact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMContact.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +129,8 @@
 				A20422251E8F2202006FDAE6 /* AppDelegate.m */,
 				A20422271E8F2202006FDAE6 /* ViewController.h */,
 				A20422281E8F2202006FDAE6 /* ViewController.m */,
+				A204226E1E8FA0CD006FDAE6 /* 使用header和footer */,
+				A204226D1E8FA0A2006FDAE6 /* 自定义cell */,
 				A204222A1E8F2202006FDAE6 /* Main.storyboard */,
 				A204222D1E8F2202006FDAE6 /* Assets.xcassets */,
 				A204222F1E8F2202006FDAE6 /* LaunchScreen.storyboard */,
@@ -117,6 +143,8 @@
 		A20422211E8F2202006FDAE6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A20422641E8F7216006FDAE6 /* WMPrefix.pch */,
+				A20422541E8F2752006FDAE6 /* statuses.plist */,
 				A20422221E8F2202006FDAE6 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +166,58 @@
 				A20422481E8F2202006FDAE6 /* Info.plist */,
 			);
 			path = UITableViewCodeUITests;
+			sourceTree = "<group>";
+		};
+		A20422681E8F9F2D006FDAE6 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				A204225C1E8F2A6C006FDAE6 /* WMWeiBoFrame.h */,
+				A204225D1E8F2A6C006FDAE6 /* WMWeiBoFrame.m */,
+				A204225F1E8F2A9F006FDAE6 /* WMWeiBoCell.h */,
+				A20422601E8F2A9F006FDAE6 /* WMWeiBoCell.m */,
+			);
+			name = cell;
+			sourceTree = "<group>";
+		};
+		A20422691E8F9F46006FDAE6 /* cell Model */ = {
+			isa = PBXGroup;
+			children = (
+				A20422561E8F2775006FDAE6 /* NJWeibo.h */,
+				A20422571E8F2775006FDAE6 /* NJWeibo.m */,
+			);
+			name = "cell Model";
+			sourceTree = "<group>";
+		};
+		A204226D1E8FA0A2006FDAE6 /* 自定义cell */ = {
+			isa = PBXGroup;
+			children = (
+				A20422651E8F899C006FDAE6 /* UseWMWeiBoCellTVC.h */,
+				A20422661E8F899C006FDAE6 /* UseWMWeiBoCellTVC.m */,
+				A20422681E8F9F2D006FDAE6 /* cell */,
+				A20422691E8F9F46006FDAE6 /* cell Model */,
+			);
+			name = "自定义cell";
+			sourceTree = "<group>";
+		};
+		A204226E1E8FA0CD006FDAE6 /* 使用header和footer */ = {
+			isa = PBXGroup;
+			children = (
+				A204226A1E8F9FF5006FDAE6 /* headerAndfooterTVC.h */,
+				A204226B1E8F9FF5006FDAE6 /* headerAndfooterTVC.m */,
+				A20422781E8FA7B8006FDAE6 /* model */,
+			);
+			name = "使用header和footer";
+			sourceTree = "<group>";
+		};
+		A20422781E8FA7B8006FDAE6 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				A20B513F1E90C84C002D0621 /* WMContact.h */,
+				A20B51401E90C84C002D0621 /* WMContact.m */,
+				A20422721E8FA528006FDAE6 /* WMContactGroup.h */,
+				A20422731E8FA528006FDAE6 /* WMContactGroup.m */,
+			);
+			name = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,6 +329,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A20422551E8F2752006FDAE6 /* statuses.plist in Resources */,
 				A20422311E8F2202006FDAE6 /* LaunchScreen.storyboard in Resources */,
 				A204222E1E8F2202006FDAE6 /* Assets.xcassets in Resources */,
 				A204222C1E8F2202006FDAE6 /* Main.storyboard in Resources */,
@@ -276,9 +357,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A20422611E8F2A9F006FDAE6 /* WMWeiBoCell.m in Sources */,
 				A20422291E8F2202006FDAE6 /* ViewController.m in Sources */,
+				A20B51411E90C84C002D0621 /* WMContact.m in Sources */,
 				A20422261E8F2202006FDAE6 /* AppDelegate.m in Sources */,
+				A20422581E8F2775006FDAE6 /* NJWeibo.m in Sources */,
 				A20422231E8F2202006FDAE6 /* main.m in Sources */,
+				A204225E1E8F2A6C006FDAE6 /* WMWeiBoFrame.m in Sources */,
+				A20422671E8F899C006FDAE6 /* UseWMWeiBoCellTVC.m in Sources */,
+				A20422741E8FA528006FDAE6 /* WMContactGroup.m in Sources */,
+				A204226C1E8F9FF5006FDAE6 /* headerAndfooterTVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +451,8 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/UITableViewCode/WMPrefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -409,6 +499,8 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/UITableViewCode/WMPrefix.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -428,7 +520,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = JXQTLK477V;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/a415/Desktop/UITableViewCode/WMPrefix.pch;
 				INFOPLIST_FILE = UITableViewCode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wangmeimei.UITableViewCode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -440,7 +535,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = JXQTLK477V;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/a415/Desktop/UITableViewCode/WMPrefix.pch;
 				INFOPLIST_FILE = UITableViewCode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wangmeimei.UITableViewCode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -516,6 +614,7 @@
 				A204224D1E8F2202006FDAE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A204224E1E8F2202006FDAE6 /* Build configuration list for PBXNativeTarget "UITableViewCodeTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +623,7 @@
 				A20422501E8F2202006FDAE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A20422511E8F2202006FDAE6 /* Build configuration list for PBXNativeTarget "UITableViewCodeUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +632,7 @@
 				A20422531E8F2202006FDAE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
